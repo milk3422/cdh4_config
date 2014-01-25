@@ -1,0 +1,9 @@
+Author: Zachary Radtka <zachary.radtka@gmail.com>
+
+This repo contains config files that can be used to help get CDH4 running on Ubuntu 12.04 LTS. To install a config file:
+
+	sudo cp <config_file> /etc/init/
+
+The service can than be started/stopped with:
+
+	sudo service <service_name> [start|stop]
